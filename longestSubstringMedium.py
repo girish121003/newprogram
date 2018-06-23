@@ -1,3 +1,9 @@
+'''Given a string, find the length of the longest substring without repeating characters.
+
+Examples:
+
+Given "abcabcbb", the answer is "abc", which the length is 3.'''
+
 def get_longest_substring_length(string):
     store = {}
     ret = start = idx = 0 # we need to initialize idx now in case of an empty string
